@@ -11,13 +11,15 @@ package rubiks;
  */
 public class Rubiks {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        Cube rubiks = new Cube();
-	rubiks.scramble();
-        rubiks.display();
-    }
+	/**
+	 * @param args the command line arguments
+	 */
+	public static void main(String[] args) {
+		Cube rubiks = new Cube();
+
+		rubiks.scramble();
+
+		rubiks.display();
+	}
 
 }
